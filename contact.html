@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <!-- ----------------------nav bar ----------------------------- -->
+       <header>
+        <div class="name">
+            <h1><a href="#">Burger <span>King</span></a></h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="features.html" >Feature</a></li>
+                <li><a href="team.html" >Chef</a></li>
+                <li><a href="menu.html" >Menu</a></li>
+                <li><a href="booking.html" >Booking</a></li>
+                <!--------------- online code ----------------  -->
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Page
+                            <i class="fa fa-caret-down" ></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="blog.html">Blog grid</a>
+                            <a href="blog-details.html">Blog details</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- ----------------end onine code --------------- -->
+
+
+                <!-- <a href="#home" id="pages" >Pages</a> -->
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </header>   
+    <!-- ------------------------------------nav bar end -->
+    
+    <!-- ------------------------- front image ------------------------- -->
+    <div class="main-image about-image" style="background-image: linear-gradient(45deg,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.8)),url(images/page-header.jpg);">
+        
+        <div class="head">
+            <h1><span style="color: orange;">Contact Us</span></h1>
+        </div>
+        <div class="content">
+            <p>morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varis fermentus, tortor</p>
+        </div>
+        <p>HOME / CONTACT</p>
+        <div class="center-button">
+            <button id="orenge" ><b>View Menu</b></button>
+            <button id="green"><b>Book Table</b></button>
+        </div>
+    </div>
+
+    <!-- ------------------------- front image end ------------------------- -->
+    
+
+
+
+
+    <!-- ---------------------------- contact us ------------------------------------------- -->
+    <div class="contact-us second-content">
+        <div class="contact-head menu-head">
+            <p id="head">Contact Us</p>
+            <p id="head-2">Contact For Any Query</p>
+        </div>
+        <div class="com-info">
+            <div class="social">
+                <div class="png">
+                    <i class="fa fa-map-marker" style="font-size: 30px;color: white;"></i>
+                </div>
+                <div class="social-detail">
+                    <p id="up">Address</p>
+                    <p id="down">123 Street, NY, USA</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="png">
+                    <i class="fa fa-phone" style="font-size: 30px;color: white;"></i>
+                </div>
+                <div class="social-detail">
+                    <p id="up">Call Us</p>
+                    <p id="down">+012 345 6789</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="png">
+                    <i class="fa fa-envelope" style="font-size: 30px;color: white;"></i>
+                </div>
+                <div class="social-detail">
+                    <p id="up">Email Us</p>
+                    <p id="down">info@example.com</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="png">
+                    <i class="fa fa-share" style="font-size: 30px;color: white;"></i>
+                </div>
+                <div class="social-detail">
+                    <p id="up">Follow Us</p>
+                    <ul>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook-f" ></i>
+                        <i class="fa fa-youtube-play" ></i>
+                        <i class="fa fa-instagram" ></i>
+                        <i class="fa fa-linkedin-square" ></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="map-input">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d181722.06029385337!2d75.43315246180086!3d12.097515483718965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1692874940770!5m2!1sen!2sin" width="700" height="480" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="msg-input">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Subject">
+                <textarea id="Text1" cols="20" rows="5" placeholder="Message"></textarea>
+                <button>Sent Message</button>
+
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <!-- -------------------------- end contact us ------------------------------------------- -->
+    
+ 
+
+    <!-- ---------------------------- bottom details -------------------------- -->
+    <div class="bottom-bar second-content">
+        <div class="out-address last-items">
+            <p id="head">Our Address</p>
+            <ul id="dtls">
+                <i class="fa fa-map-marker"></i>
+                <p>123 Street, New York, USA</p>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-phone"></i>
+                <p>+012 345 67890</p>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-envelope"></i>
+                <p>info@example.com</p>
+            </ul>
+            <ul id="last-links">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin-square"></i>
+            </ul>
+        </div>
+        <div class="quick-links last-items">
+            <p id="head">Quick Links</p>
+            <ul id="dtls">
+                <i class="fa fa-chevron-right"></i>
+                <a href="index.html">Terms of use</a>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-chevron-right"></i>
+                <a href="index.html">Privacy policy</a>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-chevron-right"></i>
+                <a href="index.html">Cookies</a>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-chevron-right"></i>
+                <a href="index.html">Help</a>
+            </ul>
+            <ul id="dtls">
+                <i class="fa fa-chevron-right"></i>
+                <a href="index.html">FQAs</a>
+            </ul>
+        </div>
+        <div class="news-letter last-items">
+            <p id="head">News Letters</p>
+            <p id="content">Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.</p>
+            <ul>
+                <input type="text" placeholder="Email goes here">
+                <button>Submit</button>
+            </ul>
+        </div>
+
+    </div>
+    <!-- ---------------------------- end bottom details -------------------------- -->
+
+
+    <!-- ---------------------------- last line -------------------------------- -->
+
+    <div class="last-line">
+        <p>Copyright c <span>Your Site name</span>, All Right reserved. Designed by <span>HTML Codex</span></p>
+    </div>
+
+
+    <!-- ---------------------------- end last line -------------------------------- -->
+
+
+    
+</body>
+<script src="js/script.js"></script>
+
+</html>

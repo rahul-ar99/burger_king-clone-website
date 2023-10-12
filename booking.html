@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Burger King</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!-- ----------------------nav bar ----------------------------- -->
+        <header>
+            <div class="name">
+                <h1>
+                    <a href="#">Burger <span>King</span></a>
+                </h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="features.html">Feature</a></li>
+                    <li><a href="team.html">Chef</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="booking.html" class="active">Booking</a></li>
+                    <!--------------- online code ----------------  -->
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                Page
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="blog.html">Blog grid</a>
+                                <a href="blog-details.html">Blog details</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- ----------------end onine code --------------- -->
+
+                    <!-- <a href="#home" id="pages" >Pages</a> -->
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- ------------------------------------nav bar end -->
+
+        <!-- ------------------------- front image ------------------------- -->
+        <div
+            class="main-image about-image"
+            style="
+                background-image: linear-gradient(
+                        45deg,
+                        rgba(0, 0, 0, 0.7),
+                        rgba(0, 0, 0, 0.8)
+                    ),
+                    url(images/page-header.jpg);
+            "
+        >
+            <div class="head">
+                <h1><span style="color: orange">Book A Table</span></h1>
+            </div>
+            <div class="content">
+                <p>
+                    morbi sagittis turpis id suscipit feugiat. Suspendisse eu
+                    augue urna. Morbi sagittis, orci sodales varis fermentus,
+                    tortor
+                </p>
+            </div>
+            <p>HOME / BOOKING</p>
+            <div class="center-button">
+                <button id="orenge"><b>View Menu</b></button>
+                <button id="green"><b>Book Table</b></button>
+            </div>
+        </div>
+
+        <!-- ------------------------- front image end ------------------------- -->
+
+        <!-- ------------------------- book a table ------------------------- -->
+        <div class="second-content second-content-back">
+            <div class="book-table">
+                <div class="first-line">
+                    <p>Book a Table</p>
+                </div>
+                <div class="main-line">
+                    <p>Book Your Table For Private Dinners & Happy Hours</p>
+                </div>
+                <div class="content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes,
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit. Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                        consequat massa quis enim.
+                    </p>
+                </div>
+            </div>
+            <div class="book-table-input">
+                <div class="single-items">
+                    <input type="text" placeholder="name" />
+                    <i class="fa fa-user-o" style="font-size: 24px"></i>
+                </div>
+                <div class="single-items">
+                    <input type="email" placeholder="Email" />
+                    <i class="fa fa-envelope-o" style="font-size: 25px"></i>
+                </div>
+                <div class="single-items">
+                    <input type="text" placeholder="Mobile" />
+                    <i class="fa fa-mobile" style="font-size: 38px"></i>
+                </div>
+                <div class="single-items">
+                    <input type="date" placeholder="Date" />
+                    <i class="fa fa-calendar" style="font-size: 24px"></i>
+                </div>
+                <div class="single-items">
+                    <input type="time" placeholder="Time" />
+                    <i class="fa fa-clock-o" style="font-size: 28px"></i>
+                </div>
+                <div class="single-items">
+                    <select class="guest-button" name="guest" id="">
+                        <option value="guest">Guest</option>
+                        <option value="guest 1-2">Guest 1-2</option>
+                        <option value="guest 3 - 6">Guest 3 - 6</option>
+                        <option value="guest 7 or more">Guest 7 or more</option>
+                    </select>
+                </div>
+                <div class="single-items buton">
+                    <button>Book Now</button>
+
+                    <!-- 
+                <div class="dropdown">
+                    <button class="dropbtn">Page
+                        <i class="fa fa-caret-down" style="font-size: 24px; color: white;"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                </div>
+                 -->
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------- book a table end ---------------------------- -->
+
+        <!-- ---------------------------- food-menu ------------------------------------------- -->
+        <div class="food-menu second-content">
+            <div class="menu-head">
+                <p id="head">Food Menu</p>
+                <p id="head-2">Delicious Food Menu</p>
+            </div>
+            <div class="menu-btn">
+                <button id="active">Burger</button>
+                <button>Snaks</button>
+                <button>Beverages</button>
+            </div>
+            <div class="menu-content">
+                <div class="items">
+                    <div class="food-items">
+                        <div class="food-image">
+                            <img src="images/menu-burger.jpg" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <p id="head">
+                                <b>Mini Cheese Burger</b
+                                >----------------------------------------------------<span
+                                    >$9.00</span
+                                >
+                            </p>
+                            <p id="item-detail">
+                                lorem ipsum dolor sit amet elit.hasel nec preti
+                                facil
+                            </p>
+                        </div>
+                    </div>
+                    <div class="food-items">
+                        <div class="food-image">
+                            <img src="images/menu-burger.jpg" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <p id="head">
+                                <b>Double size Burger</b
+                                >---------------------------------------------------<span
+                                    >$11.00</span
+                                >
+                            </p>
+                            <p id="item-detail">
+                                lorem ipsum dolor sit amet elit.hasel nec preti
+                                facil
+                            </p>
+                        </div>
+                    </div>
+                    <div class="food-items">
+                        <div class="food-image">
+                            <img src="images/menu-burger.jpg" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <p id="head">
+                                <b>Bacon, EGG and Cheese</b
+                                >--------------------------------------------<span
+                                    >$13.00</span
+                                >
+                            </p>
+                            <p id="item-detail">
+                                lorem ipsum dolor sit amet elit.hasel nec preti
+                                facil
+                            </p>
+                        </div>
+                    </div>
+                    <div class="food-items">
+                        <div class="food-image">
+                            <img src="images/menu-burger.jpg" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <p id="head">
+                                <b>Pulled porx Burger</b
+                                >---------------------------------------------------<span
+                                    >$18.00</span
+                                >
+                            </p>
+                            <p id="item-detail">
+                                lorem ipsum dolor sit amet elit.hasel nec preti
+                                facil
+                            </p>
+                        </div>
+                    </div>
+                    <div class="food-items">
+                        <div class="food-image">
+                            <img src="images/menu-burger.jpg" alt="" />
+                        </div>
+                        <div class="item-content">
+                            <p id="head">
+                                <b>Fried chicken Burger</b
+                                >------------------------------------------------<span
+                                    >$22.00</span
+                                >
+                            </p>
+                            <p id="item-detail">
+                                lorem ipsum dolor sit amet elit.hasel nec preti
+                                facil
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-image">
+                    <img src="images/menu-burger-img.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------- end food-menu ------------------------------------------- -->
+
+        <!-- ---------------------------- bottom details -------------------------- -->
+        <div class="bottom-bar second-content">
+            <div class="out-address last-items">
+                <p id="head">Our Address</p>
+                <ul id="dtls">
+                    <i class="fa fa-map-marker"></i>
+                    <p>123 Street, New York, USA</p>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-phone"></i>
+                    <p>+012 345 67890</p>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-envelope"></i>
+                    <p>info@example.com</p>
+                </ul>
+                <ul id="last-links">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-youtube-play"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin-square"></i>
+                </ul>
+            </div>
+            <div class="quick-links last-items">
+                <p id="head">Quick Links</p>
+                <ul id="dtls">
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="index.html">Terms of use</a>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="index.html">Privacy policy</a>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="index.html">Cookies</a>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="index.html">Help</a>
+                </ul>
+                <ul id="dtls">
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="index.html">FQAs</a>
+                </ul>
+            </div>
+            <div class="news-letter last-items">
+                <p id="head">News Letters</p>
+                <p id="content">
+                    Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo
+                    dictum nec non quam. Tortor eu placerat rhoncus, lorem quam
+                    iaculis felis, sed lacus neque id eros.
+                </p>
+                <ul>
+                    <input type="text" placeholder="Email goes here" />
+                    <button>Submit</button>
+                </ul>
+            </div>
+        </div>
+        <!-- ---------------------------- end bottom details -------------------------- -->
+
+        <!-- ---------------------------- last line -------------------------------- -->
+
+        <div class="last-line">
+            <p>
+                Copyright c <span>Your Site name</span>, All Right reserved.
+                Designed by <span>HTML Codex</span>
+            </p>
+        </div>
+
+        <!-- ---------------------------- end last line -------------------------------- -->
+    </body>
+    <script src="js/script.js"></script>
+</html>
